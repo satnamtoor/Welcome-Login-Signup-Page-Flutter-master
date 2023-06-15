@@ -354,38 +354,6 @@ class SignUpForm extends StatefulWidget {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: defaultPadding),
-            child: TextFormField(
-              keyboardType: TextInputType.number,
-              textInputAction: TextInputAction.next,
-              controller: _controllerIncAmt,
-              cursorColor: kPrimaryColor,
-              decoration: const InputDecoration(
-                hintText: "Incentive AMT.",
-                prefixIcon: Padding(
-                  padding: EdgeInsets.all(defaultPadding),
-                  child: Icon(Icons.insert_chart_outlined),
-                ),
-              ),
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: defaultPadding),
-            child: TextFormField(
-              keyboardType: TextInputType.number,
-              textInputAction: TextInputAction.next,
-              controller: _controllerIncPer,
-              cursorColor: kPrimaryColor,
-              decoration: const InputDecoration(
-                hintText: "Incentive Per%.",
-                prefixIcon: Padding(
-                  padding: EdgeInsets.all(defaultPadding),
-                  child: Icon(Icons.percent),
-                ),
-              ),
-            ),
-          ),
           const SizedBox(height: defaultPadding / 2),
           ElevatedButton(
             onPressed: () {
@@ -451,7 +419,7 @@ class SignUpForm extends StatefulWidget {
       Toast.show("Please enter HQ", duration: Toast.lengthShort, gravity:  Toast.center);
     }
     else{
-      Toast.show("Please stash drop again", duration: Toast.lengthShort, gravity:  Toast.center);
+      Toast.show("Please reset commit", duration: Toast.lengthShort, gravity:  Toast.center);
     }
 
 
