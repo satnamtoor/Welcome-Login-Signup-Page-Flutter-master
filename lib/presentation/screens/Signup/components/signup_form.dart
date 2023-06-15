@@ -419,7 +419,7 @@ class SignUpForm extends StatefulWidget {
       Toast.show("Please enter HQ", duration: Toast.lengthShort, gravity:  Toast.center);
     }
     else{
-      Toast.show("Please stash drop again", duration: Toast.lengthShort, gravity:  Toast.center);
+      Toast.show("Please reset commit", duration: Toast.lengthShort, gravity:  Toast.center);
     }
 
 
