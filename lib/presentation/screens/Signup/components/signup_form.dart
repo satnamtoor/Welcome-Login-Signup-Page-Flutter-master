@@ -370,22 +370,6 @@ class SignUpForm extends StatefulWidget {
               ),
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: defaultPadding),
-            child: TextFormField(
-              keyboardType: TextInputType.number,
-              textInputAction: TextInputAction.next,
-              controller: _controllerIncPer,
-              cursorColor: kPrimaryColor,
-              decoration: const InputDecoration(
-                hintText: "Incentive Per%.",
-                prefixIcon: Padding(
-                  padding: EdgeInsets.all(defaultPadding),
-                  child: Icon(Icons.percent),
-                ),
-              ),
-            ),
-          ),
           const SizedBox(height: defaultPadding / 2),
           ElevatedButton(
             onPressed: () {
