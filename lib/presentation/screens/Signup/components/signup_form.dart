@@ -359,13 +359,13 @@ class SignUpForm extends StatefulWidget {
             child: TextFormField(
               keyboardType: TextInputType.number,
               textInputAction: TextInputAction.next,
-              controller: _controllerIncPer,
+              controller: _controllerIncAmt,
               cursorColor: kPrimaryColor,
               decoration: const InputDecoration(
-                hintText: "Incentive Per%.",
+                hintText: "Incentive AMT.",
                 prefixIcon: Padding(
                   padding: EdgeInsets.all(defaultPadding),
-                  child: Icon(Icons.percent),
+                  child: Icon(Icons.insert_chart_outlined),
                 ),
               ),
             ),
