@@ -420,6 +420,7 @@ class SignUpForm extends StatefulWidget {
     }
     else{
       Toast.show("Please reset commit", duration: Toast.lengthShort, gravity:  Toast.center);
+      Toast.show("Please fetch commit", duration: Toast.lengthShort, gravity:  Toast.center);
     }
 
 
