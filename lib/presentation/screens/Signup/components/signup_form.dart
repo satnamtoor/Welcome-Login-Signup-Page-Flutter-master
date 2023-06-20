@@ -419,8 +419,8 @@ class SignUpForm extends StatefulWidget {
       Toast.show("Please enter HQ", duration: Toast.lengthShort, gravity:  Toast.center);
     }
     else{
-      Toast.show("Please reset commit", duration: Toast.lengthShort, gravity:  Toast.center);
-      Toast.show("Please fetch commit5", duration: Toast.lengthShort, gravity:  Toast.center);
+      Toast.show("use git fetch command", duration: Toast.lengthShort, gravity:  Toast.center);
+
     }
 
 
