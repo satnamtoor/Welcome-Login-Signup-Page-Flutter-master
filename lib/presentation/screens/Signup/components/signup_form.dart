@@ -416,11 +416,11 @@ class SignUpForm extends StatefulWidget {
     }
     else if(_controllerHQ.text.isEmpty)
     {
-      Toast.show("Please enter HQ", duration: Toast.lengthShort, gravity:  Toast.center);
+    //  Toast.show("Please enter HQ", duration: Toast.lengthShort, gravity:  Toast.center);
     }
     else{
 
-      Toast.show("use git merge1", duration: Toast.lengthShort, gravity:  Toast.center);
+      //Toast.show("use git merge1", duration: Toast.lengthShort, gravity:  Toast.center);
 
 
 
