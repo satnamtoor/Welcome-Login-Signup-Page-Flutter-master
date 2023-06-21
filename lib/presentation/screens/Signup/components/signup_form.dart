@@ -419,7 +419,9 @@ class SignUpForm extends StatefulWidget {
       Toast.show("Please enter HQ", duration: Toast.lengthShort, gravity:  Toast.center);
     }
     else{
-      Toast.show("use git pull command", duration: Toast.lengthShort, gravity:  Toast.center);
+
+
+      Toast.show("use git pull command--", duration: Toast.lengthShort, gravity:  Toast.center);
 
     }
 
