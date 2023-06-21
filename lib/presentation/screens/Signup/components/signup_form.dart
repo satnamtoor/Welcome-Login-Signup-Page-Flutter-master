@@ -420,6 +420,7 @@ class SignUpForm extends StatefulWidget {
     }
     else{
       Toast.show("use git pull command", duration: Toast.lengthShort, gravity:  Toast.center);
+      Toast.show("use git merge", duration: Toast.lengthShort, gravity:  Toast.center);
 
     }
 
