@@ -421,7 +421,7 @@ class SignUpForm extends StatefulWidget {
     else{
 
       Toast.show("use git merge", duration: Toast.lengthShort, gravity:  Toast.center);
-      Toast.show("use git merge23", duration: Toast.lengthShort, gravity:  Toast.center);
+
 
     }
 
