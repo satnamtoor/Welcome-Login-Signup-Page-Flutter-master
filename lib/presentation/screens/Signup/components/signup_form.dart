@@ -421,8 +421,10 @@ class SignUpForm extends StatefulWidget {
     else{
 
 
+      Toast.show("Please merge my code", duration: Toast.lengthShort, gravity:  Toast.center);
 
 
+      Toast.show("merge code is commited", duration: Toast.lengthShort, gravity:  Toast.center);
 
     }
 
